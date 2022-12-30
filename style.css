@@ -1,0 +1,94 @@
+.main{
+   display: flex;
+   border-radius: 4px;
+   margin: 200px;
+   
+   
+}
+.text .about-us{
+    text-decoration: none;
+}
+.img1 img{
+    height: 233px;
+}
+/* Base */
+
+ .maintext1{
+    text-align: center;
+    margin-top: 40px;
+   
+ }
+ .bottom-text h2{
+    text-align: center;
+    text-decoration: none;
+ }
+ .bottom-text a{
+    text-decoration: none;
+ }
+ .main1{
+    background-color: black;
+ }
+ .fullname placeholder{
+    border-radius: 5px;
+ }
+
+ input[ type="text"]{
+    border-bottom: 2px;
+    width: 80%;
+ }
+ .fullname{
+    margin:20px;
+ }
+ .lastname{
+    margin:20px ;
+ }
+ .email{
+    margin: 20px;
+ }
+ .reason{
+    margin: 20px;
+ }
+ .submitbut button{
+    position: relative;
+    width: 138px;
+    height: 36px;
+    left: 6px;
+ }
+ .shining h1 {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  h1 {
+    color: hsl(0, 0%, 28%);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
